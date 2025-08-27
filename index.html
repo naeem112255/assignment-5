@@ -19,9 +19,9 @@
         <p class="font-bold w-[135.72px] h-[44.69px] p-2 text-[#006747] text-xl mb-[10px] ">Emergency Service</p>
        </div>
        <div class="flex gap-[5px] md:none">
-        <h1 class="flex w-[123px] h-[52px] bg-[#86ffa0ad] justify-center items-center rounded-3xl"><span class="font-semibold p-2">0</span><img class="h-[30px] w-[30px] " src="./assets/heart.png" alt=""></h1>
-        <h1 class="flex w-[123px] h-[52px] bg-[#99f7ad] justify-center items-center rounded-3xl"><span class="font-semibold p-2">100</span><img class="h-[23.25px] w-[23.22px]" src="./assets/coin.png" alt=""></h1>
-        <p class="flex w-[123px] h-[52px] bg-[#136d27] justify-center items-center rounded-3xl text-white"><span class="p-2">2</span>Copy</p> 
+        <h1 class="flex w-[123px] h-[52px] bg-[#86ffa0ad] justify-center items-center rounded-3xl"><span id="love" class="font-semibold p-2">0</span><img class="h-[30px] w-[30px] " src="./assets/heart.png" alt=""></h1>
+        <h1 class="flex w-[123px] h-[52px] bg-[#99f7ad] justify-center items-center rounded-3xl"><span id="coin" class="font-semibold p-2">100</span><img class="h-[23.25px] w-[23.22px]" src="./assets/coin.png" alt=""></h1>
+        <p class="flex w-[123px] h-[52px] bg-[#136d27] justify-center items-center rounded-3xl text-white"><span id="copy" class="p-2">2</span>Copy</p> 
        </div>
       </div>
          <div class="bg-[#006747] h-[220px]">
@@ -54,8 +54,8 @@
                 <h1 class="font-bold mt-[10px]">999</h1>
                 <p class="text-gray-500 ">All</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]  "><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>
@@ -70,8 +70,8 @@
                 <h1 class="font-bold mt-[10px]">999</h1>
                 <p class="text-gray-500 ">Police</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>
@@ -86,8 +86,8 @@
                 <h1 class="font-bold mt-[10px]">999</h1>
                 <p class="text-gray-500 ">Fire</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>
@@ -102,8 +102,8 @@
                 <h1 class="font-bold mt-[10px]">1994-999999</h1>
                 <p class="text-gray-500 ">Health</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>
@@ -118,14 +118,14 @@
                 <h1 class="font-bold mt-[10px]">109</h1>
                 <p class="text-gray-500 ">Help</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>
             <div class=" ml-[10px] w-[420px] h-[320px] rounded-2xl shadow-2xl bg-white">
               <div class="flex justify-between ml-[10px]">
-                <img class="w-[32px] h-[32px] bg-red-200 rounded-[2px] mt-[20px]" src="./assets/emergency.png" alt="">
+                <img class="w-[32px] h-[32px] bg-red-200 rounded-[2px] mt-[20px]" src="./assets/logo-dark.png" alt="">
                 <i class="fa-regular fa-heart mt-[20px] mr-[10px] text-gray-500 "></i>
               </div>
               <div class="ml-[10px]" >
@@ -134,8 +134,8 @@
                 <h1 class="font-bold mt-[10px]">106</h1>
                 <p class="text-gray-500 ">Govt.</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>
@@ -150,8 +150,8 @@
                 <h1 class="font-bold mt-[10px]">16216</h1>
                 <p class="text-gray-500 ">Electricity</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>
@@ -166,14 +166,14 @@
                 <h1 class="font-bold mt-[10px]">16445</h1>
                 <p class="text-gray-500 ">NGO</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>
             <div class=" ml-[10px] w-[420px] h-[320px] rounded-2xl shadow-2xl bg-white">
               <div class="flex justify-between ml-[10px]">
-                <img class="w-[32px] h-[32px] bg-red-200 rounded-[2px] mt-[20px]" src="./assets/emergency.png" alt="">
+                <img class="w-[32px] h-[32px] bg-red-200 rounded-[2px] mt-[20px]" src="./assets/Bangladesh-Railway.png" alt="">
                 <i class="fa-regular fa-heart mt-[20px] mr-[10px] text-gray-500 "></i>
               </div>
               <div class="ml-[10px]" >
@@ -182,8 +182,8 @@
                 <h1 class="font-bold mt-[10px]">163</h1>
                 <p class="text-gray-500 ">Travel</p>
                 <div class="mt-[100px] ">
-                  <button class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
-                  <button class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
+                  <button id="logo-copy" class="w-[182.33px] h-[40px] border-2 border-gray-200 text-gray-500 rounded-[10px]"><i class="fa-solid fa-copy"></i>copy</button>
+                  <button id="call" class="w-[182.33px] h-[40px] bg-green-500 text-white rounded-[10px] "><i class="fa-solid fa-phone"></i>call</button>
                 </div>
               </div>
             </div>

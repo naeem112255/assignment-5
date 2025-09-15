@@ -254,7 +254,7 @@ const minutes = now.getMinutes(); // 0-59
 // const seconds = now.getSeconds();
 
 // call-1
-let coins = 500;
+let coins = 100;
 
 const coinBtn = document.getElementById('coin-btn');
 const callOne = document.getElementById('call-one');
